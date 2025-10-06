@@ -8,7 +8,7 @@ This is a simple IPython extension that add the `image/png` mime type to IPython
 To install simply run:
 
 ```
-pip install git+
+pip install git+https://github.com/MyUsernamee/kitty_ipy_mime
 ```
 
 ## Configuration
