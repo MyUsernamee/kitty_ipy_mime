@@ -3,8 +3,14 @@ from IPython.lib.latextools import latex_to_png
 import sys
 import subprocess
 
+color = 'White'
+
+def set_latex_color(new_color):
+    global color
+    color = new_color
 def mathcat(data, meta):
-    png = latex_to_png(f'$${data}$$'.replace('\\displaystyle', '').replace('$$$', '$$'), color='White')
+    global color
+    png = latex_to_png(f'$${data}$$'.replace('\\displaystyle', '').replace('$$$', '$$'), color=color)
     imcat(png, meta)
 
 def imcat(image_data, metadata):
