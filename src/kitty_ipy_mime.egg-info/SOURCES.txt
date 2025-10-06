@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/kitty_ipy_mime/__init__.py
+src/kitty_ipy_mime.egg-info/PKG-INFO
+src/kitty_ipy_mime.egg-info/SOURCES.txt
+src/kitty_ipy_mime.egg-info/dependency_links.txt
+src/kitty_ipy_mime.egg-info/requires.txt
+src/kitty_ipy_mime.egg-info/top_level.txt

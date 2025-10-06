@@ -4,7 +4,7 @@ import sys
 import subprocess
 
 def mathcat(data, meta):
-    png = latex_to_png(f'$${data}$$'.replace('\\displaystyle', '').replace('$$$', '$$'))
+    png = latex_to_png(f'$${data}$$'.replace('\\displaystyle', '').replace('$$$', '$$'), color='White')
     imcat(png, meta)
 
 def imcat(image_data, metadata):
@@ -13,7 +13,6 @@ def imcat(image_data, metadata):
             stdin=subprocess.PIPE,
             stdout=subprocess.PIPE,
         )
-
     icat.stdin.write(image_data);
     icat.stdin.close()
 

@@ -1,0 +1,4 @@
+Metadata-Version: 2.4
+Name: kitty_ipy_mime
+Version: 0.0.0
+Requires-Dist: ipython
